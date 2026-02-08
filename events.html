@@ -1,36 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Events | IoT Club</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<header>
-    <div class="header-container">
-        <div class="logo-area">
-            <h1>IOT CLUB</h1>
-            <p>DEVELOPMENT AND INNOVATION</p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>IOT CLUB | Home</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+/* ===== RESPONSIVE FIXES ===== */
+
+@media (max-width: 768px) {
+
+    .info-block {
+        flex-direction: column;
+        padding: 40px 10%;
+        min-height: auto;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .info-block.reverse {
+        flex-direction: column;
+    }
+
+    .text-side,
+    .image-side {
+        flex: 100%;
+        width: 100%;
+    }
+
+    .text-side h2 {
+        font-size: 2rem;
+        letter-spacing: -1px;
+    }
+
+    .text-side p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        text-transform: none; /* IMPORTANT */
+    }
+
+    .image-side {
+        height: 250px;
+    }
+
+    .nav-links {
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .header-container {
+        padding: 60px 8%;
+        text-align: center;
+    }
+
+    .logo-area h1 {
+        font-size: 2.2rem;
+    }
+}
+</style>
+    </head>
+    <body>
+    <header>
+        <div class="header-container">
+            <div class="logo-area">
+                <h1>IOT CLUB</h1>
+                <p>DEVELOPMENT AND INNOVATION</p>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html">HOME</a>
+                <a href="events.html">EVENTS</a>
+                <a href="projects.html">PROJECTS</a>
+                <a href="team.html">TEAM</a>
+                <a href="contact.html">BLOGS</a>
+            </nav>
         </div>
-        <nav class="nav-links">
-            <a href="index.html">HOME</a>
-            <a href="events.html">EVENTS</a>
-            <a href="projects.html">PROJECTS</a>
-            <a href="team.html">TEAM</a>
-            <a href="contact.html">BLOGS</a>
-        </nav>
-    </div>
-</header>
-<body>
+    </header>
 
-  <nav class="navbar"></nav>
+        <main>
+        <section class="info-block">
+            <div class="text-side">
+                <h2>Shark Tank IoT in collaboration with I2IOC</h2>
+                <p>The IoT Club, VIT Pune, in collaboration with I2IOC - Training and Placement Cell, VIT Pune, successfully organized XEN 4.0: Shark Tank IoT on 1st November 2025 at VIT Kondhwa Campus. The event provided a dynamic platform for First-Year students to pitch innovative IoT project ideas, fostering creativity, technical thinking, and real-world problem-solving skills. The competition was judged by esteemed alumni Ashwin Kshirasagar, Software Development Manager – IoT at Alfa Laval, and Shreyash Rane, Application Engineer at Honeywell, whose expert insights on industrial IoT, innovation strategy, and practical implementation helped students refine their ideas into impactful solutions. The event was further strengthened by the valuable presence and support of Hemant Dusane, making it an engaging and enriching experience for all participants.</p>
+            </div>
+            <div class="image-side gradient-box" style="padding:4px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+                <img src = "resu1jpg.jpg"
+                style="
+                width:100%;
+                height:100%;
+                object-fit:cover;
+                border-radius:6px;
+                display:block;
+                ">
+            </div>
+        </section>
+            <section class="info-block reverse">
+            <div class="text-side">
+                <h2>XEN 4.0 SPEAKER SESSION</h2>
+                <p>The IoT Club, VIT Pune organized a Speaker Session under XEN 4.0 featuring Prabhaker S. Sir from the Indian Air Force (IAF). In this engaging session, he guided students on developing a strong engineering aptitude, disciplined mindset, and practical problem-solving approach essential for success in technical careers. He also highlighted real-world applications of IoT across various industries and the defense sector, giving students a broader perspective on how emerging technologies are shaping modern systems. The session proved to be an inspiring and insightful experience, encouraging students to align their skills with industry and national needs.</p>
+            </div>
+            <div class="image-side gradient-box" style="padding:4px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+                <img src = "resu1jpg.jpg"
+                style="
+                width:100%;
+                height:100%;
+                object-fit:cover;
+                border-radius:6px;
+                display:block;
+                ">
+            </div>
+        </section>
 
-  <section class="section events">
-    <!-- EVENTS CARDS -->
-  </section>
+        <section class="info-block">
+            <div class="text-side">
+                <h2>XEN 4.0 WORKSHOP</h2>
+                <p>The IoT Club, VIT Pune organized the XEN 4.0 Workshop, a hands-on technical session designed especially for First-Year students to gain practical exposure to core IoT hardware platforms. The workshop introduced participants to working with Arduino, NodeMCU, and Raspberry Pi, guiding them through basic interfacing, programming, and real-time project implementation. With a strong focus on experiential learning, students explored sensor integration, microcontroller fundamentals, and embedded system concepts. The session provided a solid foundation in hardware development and encouraged beginners to confidently take their first steps into the world of IoT and embedded systems.</p>
+            </div>
+            <div class="image-side gradient-box" style="padding:4px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+                <img src = "resu1jpg.jpg"
+                style="
+                width:100%;
+                height:100%;
+                object-fit:cover;
+                border-radius:6px;
+                display:block;
+                ">
+            </div>
+        </section>
+        <section class="info-block reverse">
+            <div class="text-side">
+                <h2>Resume Building Session</h2>
+                <p>The IoT Club, VIT Pune organized a Resume Building Session aimed at helping students prepare industry-ready resumes for internships and placements. The session was led by Mr. Dheeraj Rathod, Career Coach, who shared practical insights on resume structure, skill representation, project showcasing, and common mistakes to avoid. Students from FY, SY, and TY across branches actively participated and gained actionable guidance on presenting their profiles more effectively and aligning them with industry expectations. The session proved to be a valuable step toward enhancing students’ career readiness and professional confidence.</p>
+            </div>
+            <div class="image-side gradient-box" style="padding:4px; overflow:hidden; display:flex; align-items:center; justify-content:center;">
+                <img src = "resu1jpg.jpg"
+                style="
+                width:100%;
+                height:100%;
+                object-fit:cover;
+                border-radius:6px;
+                display:block;
+                ">
+            </div>
+        </section>
+    </main>
+    <footer class = "footer">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    </footer>
 
-  <footer class="footer"></footer>
+        <script src="js/main.js"></script>
 
-  <script src="js/main.js"></script>
-</body>
-</html>
+    </body>
+    </html>
